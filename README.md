@@ -1,6 +1,6 @@
 # MMMPackageCollection
 
-[![Build](https://github.com/mediamonks/MMMPackageCollection/workflows/Build/badge.svg)](https://github.com/mediamonks/MMMPackageCollection/actions?query=workflow%3ABuild)
+[![Build](https://github.com/mediamonks/MMMPackageCollection/workflows/Build/badge.svg)](https://github.com/mediamonks/MMMPackageCollection/actions/workflows/build.yml?query=workflow%3ABuild)
 
 This is the registry for all SPM packages we use at [Media.Monks](https://media.monks.com).
 
