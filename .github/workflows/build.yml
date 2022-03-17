@@ -14,7 +14,16 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+
+      - name: Cache Generator
+        id: cache-generator
+        uses: actions/cache@v2
+        with:
+          path: swift-package-collection-generator
+          key: ${{ runner.os }}-generator
+
       - name: Setup Generator
+        if: steps.cache-generator.outputs.cache-hit != 'true'
         run: |
           git clone -b 5.5 https://github.com/apple/swift-package-collection-generator
           cd swift-package-collection-generator

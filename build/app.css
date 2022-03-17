@@ -1,0 +1,20 @@
+body {
+    background: #ececec;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+
+main {
+    width: 96%;
+    max-width: 560px;
+    margin: 40px auto;
+}
+
+code {
+    display: block;
+    background: #232323;
+    color: #ececec;
+    padding: 10px 10px 15px 10px;
+    margin: 5px 0;
+    white-space: nowrap;
+    overflow: auto;
+}
