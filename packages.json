@@ -1,5 +1,5 @@
 {
-    "name": "MMMPackageCollection",
+    "name": "MMMPackageRegistry",
     "overview": "This is the registry for all SPM packages we use at Media.Monks (https://media.monks.com).",
     "packages": [
         {
