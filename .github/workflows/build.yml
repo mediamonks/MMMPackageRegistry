@@ -33,7 +33,7 @@ jobs:
       - name: Generate Collection
         run: |
           cd swift-package-collection-generator
-          swift run package-collection-generate ../packages.json ../build/collection.json
+          ./.build/release/package-collection-generate ../packages.json ../build/collection.json
           cd ../
 
       - name: Publish
