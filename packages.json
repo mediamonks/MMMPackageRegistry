@@ -1,0 +1,51 @@
+{
+    "name": "MMMPackageCollection",
+    "overview": "This is the registry for all SPM packages we use at Media.Monks (https://media.monks.com).",
+    "packages": [
+        {
+            "url": "https://github.com/mediamonks/MMMCardModal.git"
+        },
+        {
+            "url": "https://github.com/mediamonks/MMMTackKit.git"
+        },
+        {
+            "url": "https://github.com/mediamonks/MMMParallaxViews.git"
+        },
+        {
+            "url": "https://github.com/mediamonks/MMMPropertyWrappers.git"
+        },
+        {
+            "url": "https://github.com/mediamonks/MMMSnapshotStorage.git"
+        },
+        {
+            "url": "https://github.com/mediamonks/MMMLog.git"
+        },
+        {
+            "url": "https://github.com/mediamonks/MMMArrayChanges.git"
+        },
+        {
+            "url": "https://github.com/mediamonks/MMMCommonCore.git"
+        },
+        {
+            "url": "https://github.com/mediamonks/MMMCommonUI.git"
+        },
+        {
+            "url": "https://github.com/mediamonks/MMMObservables.git"
+        },
+        {
+            "url": "https://github.com/mediamonks/MMMLoadable.git"
+        },
+        {
+            "url": "https://github.com/mediamonks/MMMAsyncLoadable.git"
+        },
+        {
+            "url": "https://github.com/mediamonks/MMMocking.git"
+        },
+        {
+            "url": "https://github.com/mediamonks/MMMPreview.git"
+        },
+        {
+            "url": "https://github.com/mediamonks/MMMCataphote.git"
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+name: Build
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build_package:
+    name: Build registry
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Setup Generator
+        run: |
+          git clone -b 5.5 https://github.com/apple/swift-package-collection-generator
+          cd swift-package-collection-generator
+          swift build --configuration release
+          cd ../
+
+      - name: Generate Collection
+        run: |
+          cd swift-package-collection-generator
+          swift run package-collection-generate ../packages.json ../build/collection.json
+          cd ../
+
+      - name: Publish
+        uses: JamesIves/github-pages-deploy-action@v4.2.5
+        with:
+          branch: gh-pages
+          folder: build
