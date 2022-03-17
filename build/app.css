@@ -9,6 +9,10 @@ main {
     margin: 40px auto;
 }
 
+::selection {
+    background: rgba(137,207,240, 0.5);
+}
+
 code {
     display: block;
     background: #232323;
@@ -17,4 +21,9 @@ code {
     margin: 5px 0;
     white-space: nowrap;
     overflow: auto;
+}
+
+code::selection {
+    color: #fff;
+    background: rgba(137,207,240, 0.5);
 }
