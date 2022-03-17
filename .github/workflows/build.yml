@@ -12,6 +12,7 @@ jobs:
   build_package:
     name: Build registry
     runs-on: macos-latest
+    concurrency: ci-${{ github.ref }}
 
     steps:
       - name: Checkout
