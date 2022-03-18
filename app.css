@@ -9,6 +9,17 @@ main {
     margin: 40px auto;
 }
 
+a {
+    color: #ed6310;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.25s ease;
+}
+
+a:hover {
+    color: #bd4700;
+}
+
 ::selection {
     background: rgba(137,207,240, 0.5);
 }
@@ -26,4 +37,44 @@ code {
 code::selection {
     color: #fff;
     background: rgba(137,207,240, 0.5);
+}
+
+ul.packageList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.packageList li {
+    margin: 0 0 20px 0;
+    border-bottom: 2px solid #ccc;
+}
+
+ul.packageList li:last-child {
+    border-bottom: 0;
+}
+
+ul.packageList li img {
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+ul.packageList li h4 {
+    margin: 0;
+}
+
+ul.packageList li p {
+    margin: 0 0 20px 0;
+}
+
+a.packageList--link {
+    color: #000;
+}
+
+a.packageList--link:hover {
+    color: #ed6310;
+}
+
+div.clear {
+    clear: both;
 }
