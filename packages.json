@@ -49,6 +49,9 @@
         },
         {
             "url": "https://github.com/mediamonks/MMMTestCase.git"
+        },
+        {
+            "url": "https://github.com/mediamonks/MMMoth.git"
         }
     ]
 }
