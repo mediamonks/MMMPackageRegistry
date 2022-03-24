@@ -20,3 +20,9 @@ You can also use it without Xcode by adding it to the CLI:
 ```
 swift package-collection add https://mediamonks.github.io/MMMPackageRegistry/collection.json
 ```
+
+## Ready for liftoff? 🚀
+
+We're always looking for talent. Join one of the fastest-growing rocket ships in
+the business. Head over to our [careers page](https://media.monks.com/careers)
+for more info!
